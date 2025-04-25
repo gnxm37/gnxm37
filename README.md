@@ -38,20 +38,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=gnxm37&show_icons=true&theme=tokyonight" />
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=gnxm37&theme=tokyonight" />
-</p>
-
----
-
-### 🧩 Projects
-
-- 🔹 AI 트레이딩 서비스 플랫폼
-- 🔹 무한 스크롤 웹앱
-- 🔹 회원가입 유효성 검사 폼
-
----
-
-### 💬 Fun Fact
-> 내가 짠 코드가 돌아갈 때, 세상에서 제일 짜릿함. (개발자의 쾌감이란...)
+</p>지
 
 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=gnxm37&utm_content=line">

@@ -13,7 +13,7 @@
 - 💻 Currently building **full-stack web apps** using `Node.js`, `Express`, `MongoDB`, `EJS`
 - 🔁 Implemented features like **infinite scrolling**, **form validation**, and **auth systems**
 - 📚 Always learning: diving deeper into **JavaScript, React, and clean backend architecture**
-- 📫 Reach me at: **your.email@example.com** (변경 가능!)
+- 📫 Reach me at: **gnxm37@naver.com** (변경 가능!)
 
 ---
 

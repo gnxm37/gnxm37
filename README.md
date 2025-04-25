@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm [너의 이름]</h1>
+<h1 align="center">Hi 👋, I'm 유진</h1>
 <h3 align="center">A passionate developer from Korea</h3>
 
 <p align="center">

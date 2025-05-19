@@ -38,7 +38,7 @@
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=gnxm37&theme=tokyonight" />
 </p>
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gnxm37&layout=compact)
 
 ### 💬 Fun Element
 > 내가 이번 프로젝트에 키울 두더지

@@ -32,8 +32,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-181717?style=for-the-badge&logo=github&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Python-181717?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="40" />
+  <img src="https://img.shields.io/badge/JavaScript-181717?style=for-the-badge&logo=javascript&logoColor=yellow" alt="JavaScript" height="40" />
+  <img src="https://img.shields.io/badge/React-181717?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" height="40" />
+  <img src="https://img.shields.io/badge/MySQL-181717?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" height="40" />
+  <img src="https://img.shields.io/badge/HTML5-181717?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" height="40" />
+  <img src="https://img.shields.io/badge/Bootstrap-181717?style=for-the-badge&logo=bootstrap&logoColor=563D7C" alt="Bootstrap" height="40" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="40" />
 </p>
 
 ---

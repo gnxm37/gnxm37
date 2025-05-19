@@ -7,13 +7,13 @@
 
 ---
 
-- 🎓 Computer Science graduate with a passion for **problem-solving and teamwork**
-- 🧠 Completed **AI Trading Service course** using Big Data (국비지원 과정 수료)
-- 🏅 Hackathon award-winner (✨ 새로운 아이디어로 도전하는 걸 좋아함!)
-- 💻 Currently building **full-stack web apps** using `Node.js`, `Express`, `MongoDB`, `EJS`
-- 🔁 Implemented features like **infinite scrolling**, **form validation**, and **auth systems**
-- 📚 Always learning: diving deeper into **JavaScript, React, and clean backend architecture**
-- 📫 Reach me at: **gnxm37@naver.com**
+- 🎓 Computer Science graduate with a strong passion for backend development and scalable system design
+- 🧠 Completed a government-funded AI Trading Service course using Big Data
+- 🏅 Hackathon award-winner who enjoys solving problems with fresh, creative ideas
+- 💻 Focused on building robust backend systems using JavaScript (Node.js) and Python
+- 🔁 Implemented key features like authentication, infinite scrolling APIs, and form validation
+- 📚 Continuously learning: diving deeper into clean architecture, RESTful API design, and React for integration
+- 📫 Reach me at: gnxm37@naver.com
 
 ---
 

@@ -44,6 +44,14 @@
 
 ---
 
+### ✨ Fun Animated Tech Badges
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnxm37&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+---
+
 ### 💬 Fun Element (My growing mole)
 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=gnxm37&utm_content=line" target="_blank" rel="noopener noreferrer">
@@ -72,10 +80,3 @@
 </p>
 
 ---
-
-### ✨ Fun Animated Tech Badges
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnxm37&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-

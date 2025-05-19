@@ -31,6 +31,11 @@
   <img alt="Express" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" height="40" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-181717?style=for-the-badge&logo=github&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</p>
+
 ---
 
 ### 📊 GitHub Stats
@@ -46,7 +51,7 @@
 
 ### ✨ Fun Animated Tech Badges
 
-<p align="left">
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnxm37&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 
@@ -73,9 +78,6 @@
   </a>
   <a href="mailto:gnxm37@naver.com" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/gnxm37" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 

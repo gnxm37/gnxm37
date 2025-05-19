@@ -38,10 +38,6 @@
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=gnxm37&theme=tokyonight" />
 </p>
-<p>
-  <img src=https://github-readme-stats.vercel.app/api/top-langs/?username=gnxm37&layout=compact />
-</p>
-
 ### 💬 Fun Element
 > 내가 이번 프로젝트에 키울 두더지
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=gnxm37&utm_content=line">

@@ -120,7 +120,7 @@ email:    gnxm37@naver.com
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://streak-stats.demolab.com/?user=gnxm37&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=gnxm37&theme=tokyonight&hide_border=true&starting_year=2025" />
 </p>
 
 <p align="center">

@@ -108,10 +108,12 @@ email:    gnxm37@naver.com
 
 ---
 
-## 📌 최근 활동 (auto-updated daily)
+## 📌 Now (2026.05)
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+- 🌳 **DBMS 실시간 패널 / 메타 트리 통합 API** — `with-status` 2종을 `tree` 단일 엔드포인트로, `graphable` 플래그로 FE 분기를 BE 한 곳에 일원화
+- 🧭 **온보딩 가이드 상태 API (AUTH + BE)** — `/auth/me` 응답을 `userProject` 단위로 재구성, `PATCH` 신설
+- 🎨 **차트 윈도우 정책 안정화** — KST 일 anchor + rolling N 시간 + 00:00 clamp 정착
+- 🌐 배너 i18n + 인덱스 성능 개선
 
 ---
 

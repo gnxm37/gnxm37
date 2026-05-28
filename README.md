@@ -148,15 +148,11 @@ email:    gnxm37@naver.com
 
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=gnxm37&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=gnxm37&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=gnxm37&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnxm37&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=gnxm37&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" alt="trophies" />
 </p>
 
 <br/>

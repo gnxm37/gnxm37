@@ -1,6 +1,6 @@
 # Min Yujin · Backend Engineer
 
-산업 안전 IoT 플랫폼(ProtectGO) 백엔드를 다룹니다. 단일 테넌트 NestJS 모놀리스를 **외부 고객사 단위 SaaS**로 전환하면서, **격리 · 실시간 정합성 · 운영 가시성** 세 축을 중심으로 BE 도메인 전반을 맡고 있어요.
+산업 안전 IoT 플랫폼(ProtectGO) 백엔드. 단일 테넌트 NestJS 모놀리스를 **외부 고객사 단위 SaaS**로 전환하며 **격리 · 실시간 정합성 · 운영 가시성** 세 축을 다룹니다.
 
 ```yaml
 name:     Min Yujin (민유진)
@@ -34,27 +34,16 @@ email:    gnxm37@naver.com
 
 ## 🎯 대표 성과
 
-- **외부 고객사 단위 멀티테넌시 전환 (DEL-686)** — HTTP / gRPC / MQTT / WebSocket 모든 진입점에 `TenantContext` 일관 적용, 5개 게이트웨이를 `tenant:${projectId}:*` room 키로 격리해 cross-tenant 누설 차단. **18+ PRs**
-- **대시보드 실시간 파이프라인 개선** — emit 루프를 "위젯별 → 클라이언트별"에서 "클라이언트별 → 위젯 묶음"으로 뒤집고, `(type, chartId)` 단위 선집계로 같은 사용자 화면 동기화·중복 fetch 제거
-- **차트 윈도우 정책 안정화** — TimeTrend / TimePlace 차트의 "카운트가 흐를수록 -1 되는" 회귀를 **KST 일 anchor → rolling N 시간 + 00:00 clamp** 4단계로 정착
-- **DBMS 메타 트리 통합 API** — `databases-with-status`·`tables-with-status` 2종 → `tree` 단일 엔드포인트 통합. `graphable` 플래그로 FE 활성/비활성 분기를 BE 정책 한 곳(`isGraphableField`)으로 일원화
-- **온보딩 가이드 상태 API (AUTH + BE)** — `/auth/me` 응답을 `User` → `userProject` 단위로 재구성, `PATCH` 신설, `/auth/me` 캐시 무효화까지 cross-repo 정리
-- **엣지 디바이스 헬스 모니터링 PoC** — Prometheus + Grafana + Alertmanager + cAdvisor + jetson_stats_exporter, Slack 알림 연동
-
----
+- **멀티테넌시 격리 전환 (DEL-686)** — HTTP / gRPC / MQTT / WebSocket 모든 진입점에 `TenantContext` 적용, 5 게이트웨이 tenant room 격리. **18+ PRs**
+- **대시보드 실시간 파이프라인 개선** — emit 루프 구조 전환 + 캐시 PR 3건 데이터 기반 revert로 정합성·성능 동시 해결
+- **DBMS 메타 트리 통합 API** — `with-status` 2종 → `tree` 단일 엔드포인트, FE 분기 정책을 BE 한 곳으로 일원화
 
 ## 💡 일하는 방식
 
-<table align="center">
-  <tr>
-    <td width="50%"><b>📊 데이터로 의사결정</b><br/>캐시 PR 3건을 머지하고도 "일관성 비용 > 캐시 이득"으로 데이터 기반 전면 revert. 차트 윈도우 정책도 4단계에 걸쳐 회귀를 데이터로 검증.</td>
-    <td width="50%"><b>🔄 마이그레이션은 하위호환 후 제거</b><br/>room key · WS 이벤트 등 깨지는 변경은 신규 + 레거시 병행 → 검증 → 제거 4단계. 즉시 cut-over 금지.</td>
-  </tr>
-  <tr>
-    <td><b>🧩 도메인 경계와 책임 분리</b><br/>`PlaceDetailRepository` junk drawer 해체, 메서드를 본래 도메인으로 이전. 모듈 의존성은 도메인 모듈 import로 명시.</td>
-    <td><b>🔭 운영 가시성 먼저</b><br/>공용 로깅 라이브러리와 엣지 헬스 모니터링으로 "무슨 일이 벌어지는지"를 채널·대시보드로 노출. 현장 신고 이전에 인지.</td>
-  </tr>
-</table>
+- 📊 **데이터로 의사결정** — 머지된 캐시 PR도 측정 결과로 revert
+- 🔄 **하위호환 후 제거** — 깨지는 변경은 신규+레거시 병행 → 검증 → 제거
+- 🧩 **도메인 경계 분리** — junk drawer repository 해체, 모듈 의존성 명시화
+- 🔭 **운영 가시성 먼저** — 공용 로깅 라이브러리, 엣지 헬스 모니터링 PoC
 
 ---
 
@@ -110,9 +99,9 @@ email:    gnxm37@naver.com
 
 ## 📌 Now (2026.05)
 
-- 🌳 **DBMS 실시간 패널 / 메타 트리 통합 API** — `with-status` 2종을 `tree` 단일 엔드포인트로, `graphable` 플래그로 FE 분기를 BE 한 곳에 일원화
-- 🧭 **온보딩 가이드 상태 API (AUTH + BE)** — `/auth/me` 응답을 `userProject` 단위로 재구성, `PATCH` 신설
-- 🎨 **차트 윈도우 정책 안정화** — KST 일 anchor + rolling N 시간 + 00:00 clamp 정착
+- 🌳 DBMS 실시간 패널 / 메타 트리 통합 API
+- 🧭 온보딩 가이드 상태 API (AUTH + BE)
+- 🎨 차트 윈도우 정책 안정화
 - 🌐 배너 i18n + 인덱스 성능 개선
 
 ---
@@ -120,6 +109,8 @@ email:    gnxm37@naver.com
 <p align="center">
   <img src="https://raw.githubusercontent.com/gnxm37/gnxm37/output/github-contribution-grid-snake-dark.svg" alt="snake" />
 </p>
+
+> 📓 프로젝트별 배경·의사결정 근거·PR 링크는 [노션 포트폴리오](https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3)에서 확인하실 수 있습니다.
 
 ---
 

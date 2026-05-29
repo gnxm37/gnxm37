@@ -13,18 +13,18 @@ email:    gnxm37@naver.com
 
 ---
 
-## 📊 임팩트
+## 📊 활동 영역
 
 <table align="center">
   <tr>
-    <td align="center"><b>머지 PR</b></td>
-    <td align="center"><b>기여 레포</b></td>
-    <td align="center"><b>변경 규모</b></td>
+    <td align="center"><b>기여 범위</b></td>
+    <td align="center"><b>주력 도메인</b></td>
+    <td align="center"><b>관심 영역</b></td>
   </tr>
   <tr>
-    <td align="center"><b>430</b><br>(446 중 96%)</td>
-    <td align="center"><b>8</b><br>BE · Auth · Admin · Lib · Edge</td>
-    <td align="center"><b>+111K LOC</b><br>2,700+ 파일</td>
+    <td align="center"><b>백엔드 전반</b><br>BE · Auth · Admin · Lib · Edge</td>
+    <td align="center"><b>IoT 실시간</b><br>이상탐지 · 대시보드</td>
+    <td align="center"><b>운영 가시성</b><br>모니터링 · 로깅</td>
   </tr>
 </table>
 
@@ -32,8 +32,8 @@ email:    gnxm37@naver.com
 
 ## 🎯 대표 성과
 
-- **대시보드 실시간 파이프라인 개선** — emit 루프 구조 전환 + 캐시 PR 3건 데이터 기반 revert로 정합성·성능 동시 해결
-- **DBMS 메타 트리 통합 API** — `with-status` 2종 → `tree` 단일 엔드포인트, FE 분기 정책을 BE 한 곳으로 일원화
+- **대시보드 실시간 파이프라인 개선** — emit 루프 구조 전환 + 캐시 적용을 측정 결과 기반으로 되돌려 정합성·성능 동시 해결
+- **메타 트리 통합 API** — 분기된 조회 엔드포인트를 단일 트리 API로 통합, FE 분기 정책을 BE 한 곳으로 일원화
 
 ## 💡 일하는 방식
 

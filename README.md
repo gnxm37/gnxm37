@@ -1,13 +1,13 @@
 # Min Yujin · Backend Engineer
 
-산업 안전 IoT 플랫폼(ProtectGO) 백엔드. 단일 테넌트 NestJS 모놀리스를 **외부 고객사 단위 SaaS**로 전환하며 **격리 · 실시간 정합성 · 운영 가시성** 세 축을 다룹니다.
+산업 안전 IoT 플랫폼(ProtectGO) 백엔드. NestJS 기반 IoT 백엔드에서 **실시간 정합성 · 운영 가시성**을 중심으로 다룹니다.
 
 ```yaml
 name:     Min Yujin (민유진)
 role:     Backend Engineer @ IDB Lab
 since:    2025.07 — present (~10 months)
-domain:   Industrial Safety IoT · Realtime anomaly detection · Multi-tenant SaaS
-focus:    Tenant isolation · Realtime consistency · Operational observability
+domain:   Industrial Safety IoT · Realtime anomaly detection
+focus:    Realtime consistency · Operational observability
 email:    gnxm37@naver.com
 ```
 
@@ -19,13 +19,11 @@ email:    gnxm37@naver.com
   <tr>
     <td align="center"><b>머지 PR</b></td>
     <td align="center"><b>기여 레포</b></td>
-    <td align="center"><b>WS 격리</b></td>
     <td align="center"><b>변경 규모</b></td>
   </tr>
   <tr>
     <td align="center"><b>430</b><br>(446 중 96%)</td>
     <td align="center"><b>8</b><br>BE · Auth · Admin · Lib · Edge</td>
-    <td align="center"><b>5 게이트웨이</b><br>tenant room 격리</td>
     <td align="center"><b>+111K LOC</b><br>2,700+ 파일</td>
   </tr>
 </table>
@@ -34,7 +32,6 @@ email:    gnxm37@naver.com
 
 ## 🎯 대표 성과
 
-- **멀티테넌시 격리 전환 (DEL-686)** — HTTP / gRPC / MQTT / WebSocket 모든 진입점에 `TenantContext` 적용, 5 게이트웨이 tenant room 격리. **18+ PRs**
 - **대시보드 실시간 파이프라인 개선** — emit 루프 구조 전환 + 캐시 PR 3건 데이터 기반 revert로 정합성·성능 동시 해결
 - **DBMS 메타 트리 통합 API** — `with-status` 2종 → `tree` 단일 엔드포인트, FE 분기 정책을 BE 한 곳으로 일원화
 

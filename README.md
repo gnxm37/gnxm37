@@ -53,11 +53,10 @@ email:    gnxm37@naver.com
     <td>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B" />
     </td>
   </tr>
   <tr>
-    <td align="center"><b>Framework</b></td>
+    <td align="center"><b>Backend</b></td>
     <td>
       <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
@@ -95,7 +94,7 @@ email:    gnxm37@naver.com
 
 ---
 
-## 📌 Now (2026.05)
+## 📌 Now (2026.06)
 
 - 🌳 DBMS 실시간 패널 / 메타 트리 통합 API
 - 🧭 온보딩 가이드 상태 API (AUTH + BE)

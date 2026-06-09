@@ -13,29 +13,90 @@ email:   gnxm37@naver.com
 
 ---
 
-## 맡았던 일
+## 🗂️ 맡았던 일
 
 - **실시간 대시보드 WebSocket** — 같은 차트를 여러 명이 볼 때 사람마다 따로 조회하던 것을, 차트 단위로 한 번 조회해 나눠주도록 바꿨습니다. DB 호출이 줄었고, 위젯 카운트가 어긋나던 것도 같이 맞췄습니다.
 - **DBMS 메타 트리 API** — 패널에 들어갈 때 여러 번 부르던 API를 트리 한 번으로 합치고, 그래프 가능 여부 판단을 백엔드 한 곳으로 모았습니다.
 - **센서 측정값 수집** — 어드민 서버에서 현장 센서 측정값을 받아(AWS IoT Core/MQTT) 변환·저장하는 부분을 맡았습니다.
 - **그 외** — 인증 서버 분리, 사내 공용 로깅 라이브러리.
 
-## 일하는 방식
+## 💡 일하는 방식
 
 - **안 맞는 건 그냥 안 넘깁니다.** 카운트가 1 어긋나는 것 같은 작은 것도 원인을 찾아 맞췄습니다.
 - **바꿀 때 조심해서 바꿉니다.** 쓰던 걸 갑자기 끊지 않고, 새 방식과 같이 돌려보고 문제없을 때 정리합니다.
 
-## 기술
+---
 
-```text
-주로 다룸:  TypeScript · NestJS · TypeORM · PostgreSQL · WebSocket(Socket.IO)
-써봄:       Redis · MinIO · Docker
-```
+## 🛠️ 기술
 
-> 프로젝트별 배경과 PR 링크는 [노션 포트폴리오](https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3)에 정리해 두었습니다.
+<table align="center">
+  <tr>
+    <td align="center" width="150"><b>Language</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Framework</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=typeorm&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Database · Storage</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Realtime</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tooling</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📌 요즘
+
+- 🌳 DBMS 실시간 패널 / 메타 트리 통합 API
+- 🧭 온보딩 가이드 상태 API (AUTH + BE)
+- 🎨 차트 시간 구간 정책 안정화
+- 🌐 배너 다국어 + 인덱스 성능 개선
+
+---
 
 <p align="center">
-  <a href="https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3">Portfolio</a> ·
-  <a href="https://github.com/gnxm37">GitHub</a> ·
-  <a href="mailto:gnxm37@naver.com">Email</a>
+  <img src="https://raw.githubusercontent.com/gnxm37/gnxm37/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+</p>
+
+> 📓 프로젝트별 배경과 PR 링크는 [노션 포트폴리오](https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3)에 정리해 두었습니다.
+
+---
+
+## 🔗 Connect
+
+<p align="center">
+  <a href="https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/gnxm37" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:gnxm37@naver.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Naver_Mail-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email" />
+  </a>
 </p>

@@ -1,13 +1,9 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4169E1,100:2E8B57&height=190&section=header&text=Min%20Yujin&fontSize=46&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%C2%B7%20Industrial%20Safety%20IoT&descSize=18&descAlignY=60" />
+# 민유진 · Backend Engineer
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=900&color=4169E1&center=true&vCenter=true&width=520&lines=Backend+Engineer+%40+IDB+Lab;Realtime+dashboards+%26+sensor+pipelines;NestJS+%C2%B7+TypeScript+%C2%B7+PostgreSQL" alt="typing" />
-</p>
+> Industrial Safety IoT · Realtime Dashboard · Sensor Pipeline
 
-<p align="center">
-  산업 안전 IoT 플랫폼(ProtectGO)에서 약 1년간 NestJS 백엔드를 맡았습니다.<br>
-  실시간 대시보드와 센서 데이터 수집, 인증 쪽 도메인의 API·WebSocket을 주로 다뤘습니다.
-</p>
+산업 안전 IoT 플랫폼(ProtectGO)에서 약 1년간 NestJS 백엔드를 맡았습니다.
+실시간 대시보드와 센서 데이터 수집, 인증 쪽 도메인의 API·WebSocket을 주로 다뤘습니다.
 
 ```yaml
 name:    민유진 (Min Yujin)
@@ -17,23 +13,23 @@ domain:  산업 안전 IoT · 실시간 대시보드 · 센서/엣지
 email:   gnxm37@naver.com
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
+---
 
-## 🗂️ 맡았던 일
+## 🗂️ What I did · 맡았던 일
 
 - **실시간 대시보드 WebSocket** — 같은 차트를 여러 명이 볼 때 사람마다 따로 조회하던 것을, 차트 단위로 한 번 조회해 나눠주도록 바꿨습니다. DB 호출이 줄었고, 위젯 카운트가 어긋나던 것도 같이 맞췄습니다.
 - **DBMS 메타 트리 API** — 패널에 들어갈 때 여러 번 부르던 API를 트리 한 번으로 합치고, 그래프 가능 여부 판단을 백엔드 한 곳으로 모았습니다.
 - **센서 측정값 수집** — 어드민 서버에서 현장 센서 측정값을 받아(AWS IoT Core/MQTT) 변환·저장하는 부분을 맡았습니다.
 - **그 외** — 인증 서버 분리, 사내 공용 로깅 라이브러리.
 
-## 💡 일하는 방식
+## 💡 How I work · 일하는 방식
 
 - **안 맞는 건 그냥 안 넘깁니다.** 카운트가 1 어긋나는 것 같은 작은 것도 원인을 찾아 맞췄습니다.
 - **바꿀 때 조심해서 바꿉니다.** 쓰던 걸 갑자기 끊지 않고, 새 방식과 같이 돌려보고 문제없을 때 정리합니다.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
+---
 
-## 🛠️ 기술
+## 🛠️ Tech Stack
 
 <table align="center">
   <tr>
@@ -74,9 +70,9 @@ email:   gnxm37@naver.com
   </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
+---
 
-## 📌 요즘
+## 📌 Now · 요즘
 
 - 🌳 DBMS 실시간 패널 / 메타 트리 통합 API
 - 🧭 온보딩 가이드 상태 API (AUTH + BE)
@@ -89,7 +85,7 @@ email:   gnxm37@naver.com
 
 > 📓 프로젝트별 배경과 PR 링크는 [노션 포트폴리오](https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3)에 정리해 두었습니다.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
+---
 
 ## 🔗 Connect
 
@@ -104,5 +100,3 @@ email:   gnxm37@naver.com
     <img src="https://img.shields.io/badge/Naver_Mail-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email" />
   </a>
 </p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E8B57,100:4169E1&height=120&section=footer" />

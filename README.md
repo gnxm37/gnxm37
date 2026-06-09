@@ -1,7 +1,13 @@
-# 민유진 · Backend Engineer
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4169E1,100:2E8B57&height=190&section=header&text=Min%20Yujin&fontSize=46&fontColor=ffffff&animation=fadeIn&desc=Backend%20Engineer%20%C2%B7%20Industrial%20Safety%20IoT&descSize=18&descAlignY=60" />
 
-산업 안전 IoT 플랫폼(ProtectGO)에서 약 1년간 NestJS 백엔드를 맡았습니다.
-실시간 대시보드와 센서 데이터 수집, 인증 쪽 도메인의 API·WebSocket을 주로 다뤘습니다.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=900&color=4169E1&center=true&vCenter=true&width=520&lines=Backend+Engineer+%40+IDB+Lab;Realtime+dashboards+%26+sensor+pipelines;NestJS+%C2%B7+TypeScript+%C2%B7+PostgreSQL" alt="typing" />
+</p>
+
+<p align="center">
+  산업 안전 IoT 플랫폼(ProtectGO)에서 약 1년간 NestJS 백엔드를 맡았습니다.<br>
+  실시간 대시보드와 센서 데이터 수집, 인증 쪽 도메인의 API·WebSocket을 주로 다뤘습니다.
+</p>
 
 ```yaml
 name:    민유진 (Min Yujin)
@@ -11,7 +17,7 @@ domain:  산업 안전 IoT · 실시간 대시보드 · 센서/엣지
 email:   gnxm37@naver.com
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
 
 ## 🗂️ 맡았던 일
 
@@ -25,7 +31,7 @@ email:   gnxm37@naver.com
 - **안 맞는 건 그냥 안 넘깁니다.** 카운트가 1 어긋나는 것 같은 작은 것도 원인을 찾아 맞췄습니다.
 - **바꿀 때 조심해서 바꿉니다.** 쓰던 걸 갑자기 끊지 않고, 새 방식과 같이 돌려보고 문제없을 때 정리합니다.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
 
 ## 🛠️ 기술
 
@@ -68,7 +74,7 @@ email:   gnxm37@naver.com
   </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
 
 ## 📌 요즘
 
@@ -77,15 +83,13 @@ email:   gnxm37@naver.com
 - 🎨 차트 시간 구간 정책 안정화
 - 🌐 배너 다국어 + 인덱스 성능 개선
 
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/gnxm37/gnxm37/output/github-contribution-grid-snake-dark.svg" alt="snake" />
 </p>
 
 > 📓 프로젝트별 배경과 PR 링크는 [노션 포트폴리오](https://www.notion.so/35d0c3a6bfb581828afdd40c1e7784a3)에 정리해 두었습니다.
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4169E1,100:2E8B57&height=3" width="100%" />
 
 ## 🔗 Connect
 
@@ -100,3 +104,5 @@ email:   gnxm37@naver.com
     <img src="https://img.shields.io/badge/Naver_Mail-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="Email" />
   </a>
 </p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E8B57,100:4169E1&height=120&section=footer" />

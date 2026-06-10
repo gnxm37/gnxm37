@@ -3,13 +3,13 @@
 > Industrial Safety IoT · Realtime Dashboard · Sensor Pipeline
 
 산업 안전 IoT 플랫폼(ProtectGO)에서 약 1년간 NestJS 백엔드를 맡았습니다.<br>
-실시간 대시보드와 센서 데이터 수집, 인증 쪽 도메인의 API·WebSocket을 주로 다뤘습니다.
+실시간 대시보드와 비콘·장소·문서 등 핵심 도메인의 API·WebSocket을 주로 다뤘습니다.
 
 ```yaml
 name:    민유진 (Min Yujin)
 role:    Backend Engineer @ IDB Lab
 since:   2025.07 ~ (약 1년)
-domain:  산업 안전 IoT · 실시간 대시보드 · 센서 수집
+domain:  산업 안전 IoT · 실시간 대시보드 · 도메인 API
 email:   gnxm37@naver.com
 ```
 
@@ -19,7 +19,6 @@ email:   gnxm37@naver.com
 
 - **실시간 대시보드 WebSocket** — 구독자별 중복 조회를 1회 조회 후 fan-out 구조로 전환, DB 호출↓·카운트 정합성 확보
 - **DBMS 메타 트리 API** — 여러 번 부르던 API를 트리 단일 호출로 통합, '그래프 가능' 판단을 백엔드로 일원화
-- **센서 측정값 수집** — 현장 센서값을 AWS IoT Core/MQTT로 받아 변환·저장
 - **인증 서버 재구현** — 기존 인증 서버의 유저·프로젝트·부서·초대·문의 도메인을 NestJS로 재구현, 컨벤션·검증·운영 대응 담당
 - **그 외** — 사내 공용 로깅 라이브러리, NestJS 온보딩
 

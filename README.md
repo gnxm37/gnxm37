@@ -8,7 +8,7 @@
 ```yaml
 name:    민유진 (Min Yujin)
 role:    Backend Engineer @ IDB Lab
-since:   2025.07 ~ (약 1년)
+period:  2025.07 ~ 2026.06 (1년)
 domain:  산업 안전 IoT · 실시간 대시보드 · 도메인 API
 email:   gnxm37@naver.com
 ```
@@ -74,7 +74,7 @@ email:   gnxm37@naver.com
 
 ---
 
-## 📌 Now · 요즘
+## 📌 Recently · 최근 작업
 
 - 🌳 DBMS 실시간 패널 / 메타 트리 통합 API
 - 🧭 온보딩 가이드 상태 API (AUTH + BE)

@@ -9,7 +9,7 @@
 name:    민유진 (Min Yujin)
 role:    Backend Engineer @ IDB Lab
 since:   2025.07 ~ (약 1년)
-domain:  산업 안전 IoT · 실시간 대시보드 · 센서/엣지
+domain:  산업 안전 IoT · 실시간 대시보드 · 센서 수집
 email:   gnxm37@naver.com
 ```
 

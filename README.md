@@ -2,7 +2,7 @@
 
 > Industrial Safety IoT · Realtime Dashboard · Sensor Pipeline
 
-산업 안전 IoT 플랫폼(ProtectGO)에서 약 1년간 NestJS 백엔드를 맡았습니다.<br>
+산업 안전 IoT 플랫폼(ProtectGO)에서 1년간 NestJS 백엔드를 맡았습니다.<br>
 실시간 대시보드와 비콘·장소·문서 등 핵심 도메인의 API·WebSocket을 주로 다뤘습니다.
 
 ```yaml
